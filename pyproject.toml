@@ -4,7 +4,7 @@ version = "0.0.1"
 description = "Sphinx theme to make docs look like PsychoPy docs"
 readme = "README.md"
 authors = [
-  { name = "OST Science Team", email = "science@opensceincetools.org" },
+  { name = "Open Science Tools", email = "science@opensceincetools.org" },
 ]
 license = { text = "MIT" }
 dependencies = []
@@ -17,7 +17,7 @@ changelog = "https://github.com/psychopy/psychopy-sphinx-theme/blob/main/CHANGEL
 psychopy = "psychopy_theme"
 
 [tool.setuptools.package-data]
-"*" = ["psychopy_theme/**/*"] 
+"*" = ["*.png", "*.svg", "*.html", "*.css", "*.css_t", "*.min.css", "*.min.css.map", "*.js", "*.js_t", "*.min.js", "*.ttf", "*.eot", "*.woff", "*.woff2", "*.toml"] 
 
 [tool.setuptools.packages.find]
 exclude = ["docs*", "docs_src*", "tests*"]
