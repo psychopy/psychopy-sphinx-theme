@@ -341,7 +341,7 @@ blockquote {
 
 /* plugins */
 .navbar-nav > li > a.return-btn {
-    border: 1px solid var(--white);
+    border: 1px solid var(--crust);
     border-radius: 5px;
     position: relative;
     font-weight: bold;
@@ -350,13 +350,13 @@ blockquote {
     content: ">";
     font-weight: bold;
     padding-left: 6px;
-    color: var(--white);
+    color: var(--crust);
 }
 .navbar-nav > li > a.return-btn:hover {
-    border: 1px solid #dddddd;
+    border: 1px solid var(--overlay);
 }
 .navbar-nav > li > a.return-btn:hover::after {
-    color: #dddddd
+    color: var(--overlay)
 }
 
 /* to set a section to be the height of the browser window*/
