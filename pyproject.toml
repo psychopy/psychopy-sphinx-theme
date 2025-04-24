@@ -17,7 +17,7 @@ changelog = "https://github.com/psychopy/psychopy-sphinx-theme/blob/main/CHANGEL
 psychopy = "psychopy_theme"
 
 [tool.setuptools.package-data]
-"*" = ["*.png", "*.svg", "*.html", "*.css", "*.css_t", "*.min.css", "*.min.css.map", "*.js", "*.js_t", "*.min.js", "*.ttf", "*.eot", "*.woff", "*.woff2", "*.toml"] 
+"*" = ["**/*.png", "**/*.svg", "**/*.html", "**/*.css", "**/*.css_t", "**/*.min.css", "**/*.min.css.map", "**/*.js", "**/*.js_t", "**/*.min.js", "**/*.ttf", "**/*.eot", "**/*.woff", "**/*.woff2", "**/*.toml"] 
 
 [tool.setuptools.packages.find]
 exclude = ["docs*", "docs_src*", "tests*"]
