@@ -11,7 +11,7 @@ plugin = "True"
 navbar_color = "navbar_color03"
 navbar_title = ""
 navbar_site_name = "Documentation"
-navbar_links = {}
+navbar_links = { Install = "/download" }
 navbar_sidebarrel = ""
 navbar_pagenav = ""
 navbar_pagenav_name = ""
