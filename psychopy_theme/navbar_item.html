@@ -1,7 +1,7 @@
 {% if nav_item[1] is string %}
 <!-- insert a regular link -->
 <li>
-    <a href="{{ pathto(nav_item[1]) if nav_item[1].startswith('/') else nav_item[1] }}">
+    <a href="{{ pathto(nav_item[1]) }}">
         {{ nav_item[0] }}
     </a>
 </li>
