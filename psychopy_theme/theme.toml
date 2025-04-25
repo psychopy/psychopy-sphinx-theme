@@ -7,7 +7,7 @@ sidebars = []
 pygments_style = { default = "tango" }
 
 [options]
-plugin = "True"
+variant = "plugin"
 navbar_color = "navbar_color03"
 navbar_title = ""
 navbar_site_name = "Documentation"
