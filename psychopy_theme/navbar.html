@@ -8,15 +8,19 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand small-logo" href="{{ pathto('index') }}">
-          {% if theme_plugin %}
+          {% if theme_variant == "plugin" %}
           <img src="{{ pathto('_static/navbar_logo_plugin_small.png', 1) }}" alt="PsychoPy Logo">
+          {% elif theme_variant == "plugin_dir" %}
+          <img src="{{ pathto('_static/navbar_logo_plugin_dir_small.png', 1) }}" alt="PsychoPy Logo">
           {% else %}
           <img src="{{ pathto('_static/navbar_logo_small.png', 1) }}" alt="PsychoPy Logo">
           {% endif %}
         </a>
         <a class="navbar-brand large-logo" href="{{ pathto('index') }}">
-          {% if theme_plugin %}
+          {% if theme_variant == "plugin" %}
           <img src="{{ pathto('_static/navbar_logo_plugin_large.png', 1) }}" alt="PsychoPy Logo">
+          {% elif theme_variant == "plugin_dir" %}
+          <img src="{{ pathto('_static/navbar_logo_plugin_dir_large.png', 1) }}" alt="PsychoPy Logo">
           {% else %}
           <img src="{{ pathto('_static/navbar_logo_large.png', 1) }}" alt="PsychoPy Logo">
           {% endif %}
@@ -31,8 +35,10 @@
             {% include "navbar_item.html" %}
           {% endwith %}
           {% endfor %}
-          {% if theme_plugin %}
+          {% if theme_variant == "plugin" %}
           <li><a href="https://plugins.psychopy.org/directory.html" class="return-btn">plugins.psychopy.org</a></li>
+          {% elif theme_variant == "plugin_dir" %}
+          <li><a href="https://psychopy.org/" class="return-btn">psychopy.org</a></li>
           {% endif %}
           </ul>
         </div>
