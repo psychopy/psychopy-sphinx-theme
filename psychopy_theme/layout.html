@@ -124,6 +124,8 @@
 {% block header %}
   {% if meta and meta['header_template'] == "homepage" %}
     {% include "homepage_header.html" %}
+  {% elif meta and meta['header_template'].endswith(".html") %}
+    {% include meta['header_template'] %}
   {% else %}
     {% include "header.html" %}
   {% endif %}
