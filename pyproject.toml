@@ -1,6 +1,6 @@
 [project]
 name = "psychopy-sphinx-theme"
-version = "0.0.6" 
+version = "0.0.7" 
 description = "Sphinx theme to make docs look like PsychoPy docs"
 readme = "README.md"
 authors = [
