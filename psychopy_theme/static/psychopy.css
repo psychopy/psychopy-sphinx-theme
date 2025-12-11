@@ -604,8 +604,10 @@ a:hover,
 
 .alert-info {
     background-color: var(--mantle);
+    border: none;
     border-left: .25rem solid var(--orange);
     color: var(--text);
+    border-radius: 0;
 }
 
 .fade {
