@@ -602,6 +602,10 @@ a:hover,
   font-size: 16px;
 }
 
+div.admonition {
+    padding: 1rem;
+}
+
 .alert-info {
     background-color: var(--mantle);
     border: none;
