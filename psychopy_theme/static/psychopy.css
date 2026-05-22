@@ -616,4 +616,20 @@ div.admonition {
   opacity: 1;
 }
 
+abbr, abbr[title], abbr[data-original-title] {
+    border: none;
+    text-decoration: none;
+    background-color: var(--mantle);
+    border-radius: .5em;
+    padding: 0 .5em;
+}
+.sd-card-title {
+    font-size: 1.2em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid var(--overlay);
+}
 
+.sd-card-footer.recommended {
+    background-color: var(--green);
+    color: var(--base);
+}
