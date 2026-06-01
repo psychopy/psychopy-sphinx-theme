@@ -623,6 +623,11 @@ abbr, abbr[title], abbr[data-original-title] {
     border-radius: .5em;
     padding: 0 .5em;
 }
+
+.sd-card {
+    margin-bottom: .5rem;
+}
+
 .sd-card-title {
     font-size: 1.2em;
     padding-bottom: .5em;
